@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Photo/dene2.jpg);
+    background-size:cover;
+    background-color: aliceblue;
+
+}
+html{
+    font-size: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+nav{
+    width: auto;
+    height: auto;
+    padding: 1rem 0 1rem 3rem;
+    font-size: 2.6rem;
+    background-color: hsla(138, 93%, 17%, 0.4);
+}
+.logo #anasayfa{
+    float: left;
+    font-size: 5rem;
+    
+}
+.login #giris_kayit{
+    position:fixed;
+    right: 1rem;
+    top: 3rem;
+    float: right;
+}
+#giris_kayit .item{
+    float: left;
+    padding: 0 1.8rem 0 0;
+}
+
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-weight: 900;
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Dosis', sans-serif;
+font-size: 4rem;
+color: whitesmoke;
+}
+#ustBaslik{
+    width: 81rem;
+    position: relative;
+    top: 0.5rem;
+    left: 33rem;
+    background-color: rgba(1, 2, 3, 0.1);
+    border-radius: 25px;
+}
+nav a:hover{
+    background-color:green;
+    color: whitesmoke;
+    transition: 0.4s;
+}
+header{
+    background-color: hsla(218, 89%, 4%, 0.4);
+}
+header h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 8rem;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 2.4rem;
+    letter-spacing: 1rem;
+}
+p{
+    position: relative;
+    top: 8rem;
+    column-rule: 2px double;
+    column-rule-color: black;
+    column-count: 2;
+    font-size: 1.8rem;
+    color:rgb(255, 255, 255)
+}
+header .container{
+    width: 30%;
+    float: right;
+}
+nav{
+    position:fixed;
+    width: 100%;
+}
+.solaYasla{
+    background-color: rgba(240, 248, 255, 0.236);
+    padding: 2rem 2rem 10rem 2rem;
+    float: left;
+    position: relative;
+    top: 8.2rem;
+    height:100rem;
+}
+.solaYasla li{
+    margin: 5rem 2rem;
+    font-size: 3rem;
+}
+header a{
+    color:rgb(255, 255, 255);
+    background-color: rgba(6, 135, 139, 0.608);
+}
+header a:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: 0.5s;
+}
